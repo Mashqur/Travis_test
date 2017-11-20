@@ -1,4 +1,5 @@
 language: swift
-osx_image: xcode8.3.3
+swift:
+    - 3
 script:
-    - xcodebuild clean build -sdk iphonesimulator -TravisTest TravisTest.xcodeproj -scheme TravisTestUITests CODE_SIGNING_REQUIRED=NO
+    - /Users/himel/Documents/Personal-Project/Travis_test/TravisTest
