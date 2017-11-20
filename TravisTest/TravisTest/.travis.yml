@@ -2,3 +2,6 @@ language swift
 swift:
 - 3
 - 4
+
+script:
+-
