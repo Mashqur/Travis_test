@@ -13,8 +13,8 @@
 		84F2C8571FC2F0BB009ABB47 /* TravisTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F2C8551FC2F0BB009ABB47 /* TravisTest.xcdatamodeld */; };
 		84F2C8591FC2F0BB009ABB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F2C8581FC2F0BB009ABB47 /* Assets.xcassets */; };
 		84F2C85C1FC2F0BB009ABB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F2C85A1FC2F0BB009ABB47 /* LaunchScreen.storyboard */; };
-		84F2C8641FC2F18B009ABB47 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 84F2C8631FC2F18B009ABB47 /* .travis.yml */; };
 		84F2C86C1FC2F916009ABB47 /* TravisTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2C86B1FC2F916009ABB47 /* TravisTestUITests.swift */; };
+		84F2C8761FC2FCA4009ABB47 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 84F2C8751FC2FCA4009ABB47 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +36,10 @@
 		84F2C8581FC2F0BB009ABB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F2C85B1FC2F0BB009ABB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F2C85D1FC2F0BB009ABB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84F2C8631FC2F18B009ABB47 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		84F2C8691FC2F916009ABB47 /* TravisTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F2C86B1FC2F916009ABB47 /* TravisTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestUITests.swift; sourceTree = "<group>"; };
 		84F2C86D1FC2F916009ABB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F2C8751FC2FCA4009ABB47 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 		84F2C8421FC2F0BB009ABB47 = {
 			isa = PBXGroup;
 			children = (
+				84F2C8751FC2FCA4009ABB47 /* .travis.yml */,
 				84F2C84D1FC2F0BB009ABB47 /* TravisTest */,
 				84F2C86A1FC2F916009ABB47 /* TravisTestUITests */,
 				84F2C84C1FC2F0BB009ABB47 /* Products */,
@@ -88,7 +89,6 @@
 				84F2C85A1FC2F0BB009ABB47 /* LaunchScreen.storyboard */,
 				84F2C85D1FC2F0BB009ABB47 /* Info.plist */,
 				84F2C8551FC2F0BB009ABB47 /* TravisTest.xcdatamodeld */,
-				84F2C8631FC2F18B009ABB47 /* .travis.yml */,
 			);
 			path = TravisTest;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			files = (
 				84F2C85C1FC2F0BB009ABB47 /* LaunchScreen.storyboard in Resources */,
 				84F2C8591FC2F0BB009ABB47 /* Assets.xcassets in Resources */,
-				84F2C8641FC2F18B009ABB47 /* .travis.yml in Resources */,
+				84F2C8761FC2FCA4009ABB47 /* .travis.yml in Resources */,
 				84F2C8541FC2F0BB009ABB47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

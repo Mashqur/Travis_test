@@ -1,5 +1,0 @@
-language: swift
-swift:
-    - 3
-script:
-    - /Users/himel/Documents/Personal-Project/Travis_test/TravisTest
